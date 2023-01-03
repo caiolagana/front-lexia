@@ -1,0 +1,7 @@
+<div>
+    <div *ngFor="let menuItem of menuItems">
+        <div class="btn" [routerLink]="[menuItem.path]">
+            <i class="material-icons icon">{{menuItem.icon}}</i> {{menuItem.title}}
+        </div>
+    </div>
+</div>

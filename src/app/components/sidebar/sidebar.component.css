@@ -1,0 +1,25 @@
+.btn {
+    background-color: #555555;
+    color: white;
+    padding: 10px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400!important;
+    font-size: 1.3rem;
+    transition: opacity .2s ease-in-out;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.icon {
+    position: relative;
+    /* Adjust these values accordingly */
+    top: 5px;
+    left: 5px;
+    margin: 0 5px 0 5px;
+}
+
+.btn:hover {
+    background-color: #2A758E;
+    cursor: pointer;
+    transition: opacity .2s ease-in-out;
+}
